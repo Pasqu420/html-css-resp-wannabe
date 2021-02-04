@@ -37,3 +37,49 @@
     padding: 20%
   }
 }
+
+/* bonus */
+
+@media all and (max-width: 1000px) and (min-width: 421px) {
+  /* generali */
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  img{
+    width: 30%;
+    height: auto;
+  }
+  /* row */
+  .row{
+    width: 100%;
+  }
+  /* lezioni */
+  #lezioni .row>.left{
+    width: 90%;
+    float: none;
+    margin: 5% auto;
+  }
+  #lezioni .row>.right{
+    width: 90%;
+    float: none;
+    margin: auto;
+    padding-bottom: 5%;
+  }
+  /* blocco steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
+    width: 50%;
+    margin: 5% auto;
+  }
+  #steps .row>.right{
+    float: none;
+  }
+  /* blocco perche */
+  #why .row img{
+    width: 20%;
+    padding: 7%
+  }
+
+}
