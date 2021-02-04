@@ -1,0 +1,36 @@
+@media all and (max-width: 1000px) {
+  /* generali */
+  img{
+    max-width: 100%;
+  }
+  /* row */
+  .row{
+    max-width: 100%;
+  }
+  /* lezioni */
+  #lezioni .row>.left{
+    width: 100%;
+    float: none;
+    margin-bottom: 15%;
+  }
+  #lezioni .row>.right{
+    width: 100%;
+    float: none;
+  }
+  /* #lezioni .row img{
+    max-width: 100%;
+  } */
+  /* blocco steps */
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    float: none;
+    width: 100%;
+    margin: 15% auto;
+  }
+  /* blocco perche */
+  #why .row img{
+    max-width: 50%;
+    max-height: 30%;
+  }
+}
