@@ -11,6 +11,7 @@
   /* row */
   .row{
     width: 100%;
+    margin-top: 2%;
   }
   /* lezioni */
   #lezioni .row>.left{
@@ -34,7 +35,7 @@
   #why .row img{
     width: 50%;
     max-height: 30%;
-    padding: 20%
+    padding: 10%
   }
 }
 
